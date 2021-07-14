@@ -1,0 +1,17 @@
+body::-webkit-scrollbar {
+  width: 15px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: white;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #252726;
+  /* color of the scroll thumb */
+}
+
+#nav1{height:auto; position:absolute; top:10px; left:100px; width:28%;}
+#nav2{height:auto; position:absolute; top:10px; right:180px; width:28%;}
+#navd{float:left; width:50px; height:100%; margin-left:50px; padding:5px; color:white; text-align:center; font-family: 'Uchen', serif;}
+#navfd{float:left; width:50px; height:50%; margin-left:45px; margin-top:20px; padding:5px; color:black; text-align:center; font-family: 'Uchen', serif;}
